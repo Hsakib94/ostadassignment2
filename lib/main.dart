@@ -41,29 +41,51 @@ class HomeActivity extends StatelessWidget{
       ),
 
       body: Container(
-        padding:  EdgeInsets.all(8.0),
+       margin:  EdgeInsets.all(40),
         child: Center(
           child: Column(
 
             mainAxisAlignment: MainAxisAlignment.center,
+
             children: [
               CircleAvatar(
-                radius: 80,
+                radius: 70,
+                backgroundColor: Colors.deepPurpleAccent,
+                child: IconButton(onPressed: (){}, icon: Icon(Icons.icecream_outlined),
+                  iconSize: 100,
+
+                ),
 
               ),
-              Text("Ice creame is very delicious right?"),
+              Text("Ice creame is very delicious right?",
+                style: TextStyle(fontSize: 25),
+              ),
 
               CircleAvatar(
-                radius: 80,
+                radius: 70,
+                backgroundColor: Colors.deepPurpleAccent,
+                child: IconButton(onPressed: (){}, icon: Icon(Icons.code_rounded),
+                  iconSize: 100,
+
+                ),
 
               ),
-              Text("Programing is not boring if you love it"),
+              Text("Programing is not boring if you love it",
+                  style: TextStyle(fontSize: 25),
+              ),
 
               CircleAvatar(
-                radius:80,
+                radius:70,
+                backgroundColor: Colors.deepPurpleAccent,
+                child: IconButton(onPressed: (){}, icon: Icon(Icons.egg_outlined),
+                  iconSize: 100,
 
+                ),
               ),
-              Text("If you submit code directly copy from chatgpt then mark will 0")
+              Text("If you submit code directly copy from chatgpt then mark will 0",
+                style: TextStyle(fontSize: 25),
+
+              )
 
             ],
           ),
