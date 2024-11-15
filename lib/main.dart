@@ -40,6 +40,37 @@ class HomeActivity extends StatelessWidget{
         ],
       ),
 
+      body: Container(
+        padding:  EdgeInsets.all(8.0),
+        child: Center(
+          child: Column(
+
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              CircleAvatar(
+                radius: 80,
+
+              ),
+              Text("Ice creame is very delicious right?"),
+
+              CircleAvatar(
+                radius: 80,
+
+              ),
+              Text("Programing is not boring if you love it"),
+
+              CircleAvatar(
+                radius:80,
+
+              ),
+              Text("If you submit code directly copy from chatgpt then mark will 0")
+
+            ],
+          ),
+        ),
+      ),
+
+
     );
 
   }
